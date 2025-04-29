@@ -1,0 +1,20 @@
+{ Identify real type: ex02 }
+
+- [ ]   implementare classe Base con
+        un distruttore pubblico vituale
+        e basta
+
+- [ ] funzioni membro
+        -Base* generate (void);
+            inizializza randomicamente una
+            classe tra A, B o C.
+        
+        - void identify(Base *p);
+            stampa il tipo di oggetto 
+            puntato da p: A, B o C
+        
+        - void identify(Base& p)
+            stampa il tipo di oggetto
+            referenziato da p
+
+- [ ] utilizzare dynamic_cast
