@@ -4,8 +4,10 @@ Serializer::~Serializer(){}
 
 Serializer& Serializer::operator=(const Serializer& copy)
 {
-	if (&copy)
+	if (this != &copy)
+	{
 		;
+	}
 	return *this;
 }
 
