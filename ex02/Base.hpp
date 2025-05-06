@@ -8,7 +8,7 @@
 class Base
 {
 	public:
-		virtual ~Base() = 0;
+		virtual ~Base();
 		static Base*	generate(void);
 		static void	identify(Base& p);
 		static void	identify(Base* p);
